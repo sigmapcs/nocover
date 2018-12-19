@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>No Cover</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta property="og:title" content="Albums">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css?v=2.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+  <body>
+    <div class="main-header ed-container">
+      <div class="breadcrumbs ed-item">
+        <h2 class="breadcrumbs-title">You are here</h2>
+        <ul class="breadcrumbs-list">
+          <li>Home</li>
+          <li>Music</li>
+          <li>Albums</li>
+        </ul>
+      </div>
+      <div class="nav-bar ed-container">
+        <div class="logo item">
+          <h1 class="title-page">No Cover</h1>
+        </div>
+        <nav class="main-nav">
+          <div class="toggle-menu" id="toggle-menu"><i class="fas fa-bars"></i></div>
+          <ul class="main-menu" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation" id="main-menu">
+            <li class="main-menu__item" itemprop="url"><a class="main-menu__link" href="artists.html" itemprop="name">Artists</a></li>
+            <li class="main-menu__item" itemprop="url"><a class="main-menu__link" href="artist.html" itemprop="name">Artist</a></li>
+            <li class="main-menu__item active" itemprop="url"><a class="main-menu__link" href="albums.html" itemprop="name">Albums</a></li>
+            <li class="main-menu__item" itemprop="url"><a class="main-menu__link" href="license.html" itemprop="name">License Music</a></li>
+            <li class="main-menu__item" itemprop="url"><a class="main-menu__link" href="license2.html" itemprop="name">License Music 2</a></li>
+            <li class="main-menu__item" itemprop="url"><a class="main-menu__link" href="license3.html" itemprop="name">License Music 3</a></li>
+            <li class="main-menu__item" itemprop="url"><a class="main-menu__link" href="search.html" itemprop="name">Search</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <main class="main ed-grid m-grid-12" id="main">
+      <div class="left m-cols-3">
+        <section class="payer-container">
+          <article class="player">
+            <div class="player__top">
+              <p class="player__title">Music</p>
+              <div class="player__share" id="share-music">
+                <p class="plus">+</p>
+                <p class="text">share</p>
+              </div>
+            </div>
+            <div class="album__cover"><img src="img/cover.jpg"></div>
+            <div class="album__data">
+              <h2 class="album-name">Suspiria</h2>
+              <h3 class="artist-name">Thom Yorke</h3>
+            </div>
+            <div class="player__controls">
+              <div class="song-time">
+                <p class="song-time__current">0:00</p>
+                <input class="current-time-bar" type="range" min="0" max="100" step="1" id="current-time">
+                <p class="song-time__total">4:50</p>
+              </div>
+              <div class="player-buttons">
+                <div class="player-buttons__prev">◀</div>
+                <div class="player-buttons__play"><span> ▶</span></div>
+                <div class="player-buttons__next">▶</div>
+              </div>
+              <div class="player-volume">
+                <div class="player-buttons__min">-</div>
+                <input type="range" min="0" max="100" step="10">
+                <div class="player-buttons__plus">+</div>
+              </div>
+            </div>
+          </article>
+          <article class="playlist">
+            <h2 class="playlist__title">Playlist</h2>
+            <ul class="playlist__list">
+              <li><a href="#">I do it for you</a></li>
+              <li><a href="#">Please forgive me</a></li>
+              <li><a href="#">Summer of ‘69</a></li>
+              <li><a href="#">Heaven</a></li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <section class="page-content m-cols-9">
+        <form class="search-form" id="search-form">
+          <input class="input-form search" type="search" id="search">
+          <input class="input-form btn btn-search" type="submit" value="Search">
+        </form>
+        <div class="albums-page container">
+          <div class="albums__head item"><img src="img/cover.jpg" alt="cover">
+            <div class="albums__title">
+              <h2 class="albums__name">Suspiria</h2>
+              <h3 class="albums_artist">Thom Yorke</h3>
+            </div>
+          </div>
+          <section class="albums">
+            <div class="albums-container">
+              <div class="albums__table item">
+                <table class="table">
+                  <tr>
+                    <th> </th>
+                    <th>NAME</th>
+                    <th>TITLE</th>
+                    <th>LENGHT</th>
+                    <th>BMP</th>
+                    <th>ONE STOP</th>
+                    <th>COLLECTIONS</th>
+                  </tr>
+                  <tr>
+                    <td><img src="img/cover.jpg" alt="cover"></td>
+                    <td>SUSPIRIA </br>Thom Yorke</td>
+                    <td>The Hooks</td>
+                    <td>05:12</td>
+                    <td>71</td>
+                    <td>No</td>
+                    <td>Artist</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="actions">
+                <button class="btn-table">Play</button>
+                <button class="btn-table">Download</button>
+                <button class="btn-table">License</button>
+                <button class="btn-table">Add</button>
+                <button class="btn-table">More</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts-min.js"></script>
+  </body>
+</html>
