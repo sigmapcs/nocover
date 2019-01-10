@@ -521,8 +521,8 @@ input[type=range]::-moz-range-thumb {
 
 /* line 1, src/scss/components/_main.scss */
 .page-content {
-  max-width: 95%;
-  margin: 0 auto;
+  /* max-width: 100%;
+  padding-left: 1em; */
 }
 
 /* line 1, src/scss/pages/_search.scss */
@@ -893,13 +893,14 @@ input[type=range]::-moz-range-thumb {
 /* line 23, src/scss/pages/license-page.scss */
 .side-left {
   padding-right: 1em;
+  padding-left: 1em;
   min-height: 960px;
   position: relative;
 }
 
 /* line 27, src/scss/pages/license-page.scss */
 .side-left::after {
-  content: '';
+  /* content: ''; */
   position: absolute;
   right: 0;
   top: 2.2em;
@@ -995,12 +996,12 @@ input[type=range]::-moz-range-thumb {
 /* line 97, src/scss/pages/license-page.scss */
 .licence-form input, .licence-form textarea {
   font-size: .9em;
-  border-radius: .4rem;
-  border: 1px solid #999;
+  border-radius: .4rem !important;
+  border: 1px solid #999 !important;
   display: block;
   width: 100%;
   resize: none;
-  background: var(--bg-license);
+  background: var(--bg-license) !important;
   padding-left: .5em;
   padding-right: .5em;
 }
